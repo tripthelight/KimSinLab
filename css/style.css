@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrap .list {
+  padding: 8px 0;
+}
+.wrap .list a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+}
