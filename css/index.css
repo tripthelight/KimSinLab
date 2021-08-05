@@ -1,0 +1,13 @@
+@import url(/Users/sinkim/workspace/KimSinLab/css/common.css);
+.wrap.main .list {
+  padding: 8px 0 8px 16px;
+}
+
+.wrap.main .list a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  text-align: left;
+}
+/*# sourceMappingURL=index.css.map */

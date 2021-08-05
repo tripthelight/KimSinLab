@@ -1,0 +1,32 @@
+@import url(/Users/sinkim/workspace/KimSinLab/css/common.css);
+.wrap.darkmode {
+  background-color: var(--background);
+}
+
+.wrap.darkmode .title {
+  display: block;
+  text-align: left;
+  font-size: 24px;
+  color: var(--heading-text);
+}
+
+:root {
+  --background: #fff;
+  --text: #363636;
+  --heading-text: #000;
+  --anchor-text: #0076d1;
+  --code-background: #efefef;
+  --code-text: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000;
+    --text: #dbdbdb;
+    --heading-text: #fff;
+    --anchor-text: #0076d1;
+    --code-background: #161f27;
+    --code-text: #ffbe85;
+  }
+}
+/*# sourceMappingURL=style.css.map */
